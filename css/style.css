@@ -1,0 +1,249 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(239, 232, 223);
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.nav {
+    padding: 0px;
+    background: #d7b345;
+    text-decoration: none;
+}
+
+
+.nav img {
+    padding-left: 20%;
+    width: 8%;
+    height: 8%;
+    padding: 0px;
+
+}
+
+
+.nav li {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    float: right;
+    padding: 0px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+
+.nav li:hover {
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+
+a {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-texto {
+    background-image: url(../imagens/LOGO_OPACA.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.container-texto a {
+    background-color: #d7b345;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border: 2px #7f5333 solid;
+    text-shadow: none;
+}
+
+.container-texto a:hover {
+    background: #7f5333;
+    transition: 0.5s;
+    color: white;
+    text-shadow: 2px 2px black ;
+    border: 2px black solid;
+}
+
+
+a h2 {
+    color: black;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#div-img {
+    background-image: url(/imagens/SLIDE/acao-social2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 100px;
+    backface-visibility: 50%;
+}
+
+
+#cards {
+    width: 300px;
+    height: 400px;
+    background-color: #d7b345;
+    border-radius: 10%;
+    display: inline-block;
+    justify-content: center;
+    padding: 40px;
+    margin: 2%;
+    text-align: left;
+    font-size: 20px;
+    border: solid 5px #7f5333;
+}
+
+
+#cards img {
+    width: 150px;
+    height: 90px;
+}
+
+#cards:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-size: 150%;
+    color: white;
+    border: solid 5px black;
+    background-color: #7f5333;
+}
+
+
+.parceiros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parcerias {
+    margin: 50px;
+    border: solid 5px #7f5333;
+    background-color: #d7b345;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.parcerias:hover {
+    transition: .5s;
+    transform: scale(1.3);
+    image-resolution: 100px 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    transition: 0.5s;
+    border: solid 5px black;
+    background-color: #7f5333;
+    
+}
+
+
+#myfooter {
+    margin-bottom: 0;
+    background: #d7b345;
+    padding-bottom: 5px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+
+#myfooter img {
+    width: 150px;
+    height: 90px;
+}
+
+
+i {
+    color: black;
+    font-size: 120%;
+}
+
+
+i:hover {
+    transform: scale(1.1);
+    transition: .6s;
+    color: #8B4513;
+}
+
+.imgs3 {
+    width: 80%;
+    display: flex;
+    padding-top: 20px;
+    top: 50%;
+    overflow: hidden;
+    width: 95%;
+    height: 100%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.nav3:hover {
+    text-decoration: none;
+    color: #7f5333;
+    text-shadow: 1px 1px black;
+    transition: 0.5s;
+}
+
+.nav3 {
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
+}
+
+.card-1:hover {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+
